@@ -28,3 +28,5 @@ Line references
 
 61 write.table command to create data_tidy.txt file in the working directory
 
+##Result
+The file data_tidy.txt consists of 30 volunteers * 6 activities = 180 rows of 81 columns ("id", "activity", and 79 measurement features).
