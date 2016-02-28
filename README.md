@@ -24,7 +24,7 @@ Line references
 
 53-55 activity values are recoded as activity factors with descriptive labels
 
-57-59 generate data.means data table containing means of all measurement columns, calculated by activity and dataset (testing/ training). this leaves a residual id column that is removed (line 59)
+57-60 generate data.means data table containing means of all measurement columns, calculated by activity and id. setkeys generates primary and secondary key for the data table for sorting by activity first and by id second. 
 
-60 write.table command to create data_tidy.txt file in the working directory
+61 write.table command to create data_tidy.txt file in the working directory
 
