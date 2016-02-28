@@ -20,7 +20,7 @@ Line references
 
 45-47 testing data set is merged into the data.test data table, with column names being applied
 
-49-51 training and testing data tables are merged using the data.table rbind equivalent rbindlist
+49-51 training and testing data tables are merged using the data.table rbind equivalent rbindlist into the data table data.
 
 53-55 activity values are recoded as activity factors with descriptive labels
 
@@ -29,4 +29,7 @@ Line references
 61 write.table command to create data_tidy.txt file in the working directory
 
 ##Result
-The file data_tidy.txt consists of 30 volunteers * 6 activities = 180 rows of 81 columns ("id", "activity", and 79 measurement features).
+The file data_tidy.txt consists of 30 volunteers * 6 activities = 180 rows of 81 columns ("id", "activity", and 79 measurement features). It is a tidy dataset because 
+* all measurements are contained within separate columns
+* every row represents a single activity for a single volunteer
+* all data represents a single type of observational unit
